@@ -1,5 +1,3 @@
-// ImplementacaoCriptografia.java - (Versão Final com Sincronização)
-
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 

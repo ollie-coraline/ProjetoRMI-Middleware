@@ -67,7 +67,7 @@ public class Cliente {
                 System.out.println("  Operação: " + prompt);
                 System.out.println("  Chave: " + chave);
                 System.out.println("  Texto Processado: " + resultado);
-                System.out.println("-----------------------------");
+                System.out.println("----------------------------------");
 
             } while (true);
             

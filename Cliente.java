@@ -21,7 +21,7 @@ public class Cliente {
                 System.out.println("1 -> ENCRIPTAR (Cifra César + Inversão)");
                 System.out.println("2 -> DECRIPTAR (Inversão + Cifra César Inversa)");
                 System.out.println("0 -> SAIR");
-                System.out.print(">>");
+                System.out.print(">> ");
                 
                 if (!scanner.hasNextInt()) {
                     System.out.println("Entrada inválida. Digite um número.");

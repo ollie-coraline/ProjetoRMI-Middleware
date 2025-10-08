@@ -25,3 +25,6 @@ Este texto deve ser conciso e focado nos principais *deliverables* e conceitos a
     java Cliente
     ```
     *O Cliente rodará em *loop*, solicitando a operação (1, 2 ou 0 para sair).*
+
+### Link do artigo do projeto:
+https://docs.google.com/document/d/1xvayePIe8-I7w9VjkVdeaH9DJldtfIijDra0_mKsCPc/edit?usp=sharing

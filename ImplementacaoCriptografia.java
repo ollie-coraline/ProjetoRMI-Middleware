@@ -66,8 +66,8 @@ public class ImplementacaoCriptografia extends UnicastRemoteObject implements Se
         }
         
         System.out.println("\nServidor (Thread " + Thread.currentThread().getId() + "): Operação: " + operacao);
-        System.out.println("Servidor: Texto: '" + texto + "' | Chave: " + chave + " | Resultado: '" + resultado + "'");
-        System.out.println("Servidor: Total de chamadas até agora: " + contadorDeChamadas);
+        System.out.println("Texto: '" + texto + "' | Chave: " + chave + " | Resultado: '" + resultado + "'");
+        System.out.println("Total de chamadas até agora: " + contadorDeChamadas);
         
         return resultado;
     }

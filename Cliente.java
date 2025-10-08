@@ -42,9 +42,9 @@ public class Cliente {
                     continue;
                 }
                 
-                String prompt = (modo == 1) ? "ENCRIPTADA:" : "DECRIPTADA:";
+                String prompt = (modo == 1) ? "ENCRIPTADA" : "DECRIPTADA";
                 
-                System.out.printf("DIGITE A CHAVE NUMÉRICA E A STRING PARA SER %s\n", prompt);
+                System.out.printf("DIGITE A CHAVE NUMÉRICA E A STRING PARA SER %s:\n", prompt);
                 System.out.print(">> ");
 
                 String linhaCompleta = scanner.nextLine();

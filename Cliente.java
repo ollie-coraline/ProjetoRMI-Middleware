@@ -56,7 +56,21 @@ public class Cliente {
                     continue;
                 }
                 
-                int chave = Integer.parseInt(partes[0].trim());
+                String chaveStr = partes[0].trim();
+                int chave;
+                
+                if (chaveStr.length() > 9) {
+                    System.out.println("ERRO: A chave numérica não pode ter mais de 9 dígitos.");
+                    continue;
+                }
+
+                try {
+                    chave = Integer.parseInt(chaveStr);
+                } catch (NumberFormatException e) {
+                    System.out.println("ERRO: A chave deve ser um número inteiro válido.");
+                    continue;
+                }
+                
                 String texto = partes[1].trim();
                 
                 System.out.println("Enviando requisição para o Servidor...");
